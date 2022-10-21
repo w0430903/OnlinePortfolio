@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--
+		Author: Robert Halbert
+		Date: Sept. 13, 2022	
+	-->
+	<title>Contact</title>
+	<meta charset="UTF-8"/>
+	<meta name="keywords" content="contacts, HTML">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link href="portfolio_layout.css" rel="stylesheet"/>
+	<link href="portfolio_style.css" rel='stylesheet'/>
+</head>
+
+<body id="contactpage">
+	<header>
+		
+		<nav>
+			<a id="navicon" href="#"><img src='tf_navicon.png' alt="navicon"></a>
+			<ul class="navlist">
+				<li class="nav" id="home"><a href="index.html">Home</a></li>
+				<li class="nav"><a href="Goals.html">Goals</a></li>
+				<li class="nav"><a href="Skills.html">Skills</a></li>
+				<li class="nav"><a href="Resume.html">Resume</a></li>
+				<li class="nav"><a href="Contact.html" class="currentpage">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<article>
+		<h1>Contact</h1>
+		<img src="phone.png" alt="Phone Picture" class="webimage"/>
+		<!--Source: https://medium.com/@egwuchinedu69/ ... -->
+		<article id="form">
+			<h3>Contact Me</h3>
+			<form method="POST" name="contact" data-netlify="true">
+				<label for="firstname">First Name</label>
+				<input type="text" id="firstname" placeholder="First Name...">
+				<label for="lastname">Last Name</label>
+				<input type="text" id="lastname" placeholder="Last Name...">
+				<label for="email">E-mail</label>
+				<input type="text" id="email" placeholder="Your email adress...">
+				<label for="message">Message</label>
+				<textarea id="message" name="Subject"></textarea>
+				<button type="submit"> Submit </button>
+			</form>
+		</article>
+	</article>
+</body>
+</html>

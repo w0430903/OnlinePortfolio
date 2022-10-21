@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+/* 
+    Author: Robert Halbert
+    Date: 9/21/2022
+*/
+
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 100%;
+    height: max-content;
+}
+
+header {
+    background-color: lightgray;
+    background-color: rgba(210,210,210,0.8)
+}
+
+p{
+    font-size: 1.15em;
+}
+
+nav ul a{
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.navlist{
+    list-style-type: none;
+}
+
+nav ul a:hover,nav ul a:active{
+    text-decoration: underline;
+    font-weight: bolder;
+    background-color: grey;
+    background-color: rgba(110,110,110,0.8);
+}
+
+nav ul a:visited{
+    color: black;   
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+}
+
+.webimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.firstparagraph{
+    font-weight: bold;
+    font-size: 1.3em; 
+}
+
+#firstlink{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+aside {
+
+    border-radius: 5px;
+}
+
+/* Source: https://medium.com/@egwuchinedu69/ ... */
+#form {
+    width: 60%;
+    margin: 30px auto;
+  }
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+textarea {
+height: 150px;
+resize: none;
+}
+
+button {
+background-color: #4CAF50;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #45a049;
+}
+
+#form {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+
+#form h3 {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    #form {
+        width: 90%;
+        margin:auto;
+        color: black;
+    }
+
+    html {
+        background-color: black;
+    }
+    
+    body {
+        background-color: black;
+        color: lightgray;
+    }
+
+    .webimage {
+        display: none;
+    }
+
+    nav {
+        border: black 2px solid;
+        border-radius: 3px;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    td, th {
+        border: 1px solid white;
+        padding-right: 2%;
+    }
+
+    #home {
+        margin-top: 2%;
+    }
+
+    .navlist {
+        display: none;
+    }
+
+    #navicon:hover+ul, .navlist:hover {
+        display: block;
+        row-gap: 100px;
+    }
+
+    #resumepage h2 {
+        font-size: 3em;   
+    }
+
+    aside {
+        background-color: gray;
+        color: white;
+    }
+
+    aside h3 {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    
+    html {
+        background-color: darkblue;
+    }
+    
+    body {
+        background-color: bisque;
+        color:black;
+        border: 1px solid black;
+    }
+
+    #navicon {
+        display: none;
+    }
+
+    header{
+        border: rgb(0, 0, 0) 2px solid;
+        border-radius: 3px;
+    }
+
+    aside {
+        background-color: rgb(224, 206, 182);
+        background-color: rgba(224, 206, 182,0.8);
+        border: 2px black solid;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    td, th {
+        border:2px solid black;
+        font-size: larger;
+    }
+}
