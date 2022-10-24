@@ -70,7 +70,6 @@ h2{
 }
 
 aside {
-
     border-radius: 5px;
 }
 
@@ -142,7 +141,6 @@ padding: 20px;
 
     nav {
         border: black 2px solid;
-        border-radius: 3px;
     }
 
     table {
@@ -185,6 +183,7 @@ padding: 20px;
     
     html {
         background-color: darkblue;
+        background-image: linear-gradient(darkblue,black);
     }
     
     body {
@@ -199,7 +198,6 @@ padding: 20px;
 
     header{
         border: rgb(0, 0, 0) 2px solid;
-        border-radius: 3px;
     }
 
     aside {

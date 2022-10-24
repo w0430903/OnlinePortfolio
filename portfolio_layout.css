@@ -146,6 +146,7 @@ h2 {
     }
     
     aside {
+        max-width: 400px;
         margin-top: 10%;
         margin-right: 5%;
         padding-left: 10px;
@@ -153,6 +154,10 @@ h2 {
         grid-row: 2/4
         
     }  
+
+    aside ul {
+        padding-left: 10%;
+    }
 
     #skillspage article {
         display: flex;
@@ -168,6 +173,7 @@ h2 {
         margin: auto;
         flex: 0 1 80%;
     }
+
     th {
         width: 60%;
     }
